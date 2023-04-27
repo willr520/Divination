@@ -1,0 +1,62 @@
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	animation: fadeIn 5s;
+}
+
+.frequencies {
+	font-family: 'Ramabhadra', sans-serif;
+	text-align: center;
+	font-size: 100px;
+	color: white;
+	position:relative;
+	
+}
+
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+form {text-align: left;
+	font-family: 'Ramabhadra', sans-serif;
+
+}
+
+textarea[type="text"] {
+	height: 300px;
+	font-size: 50px;
+	font-family: 'Ramabhadra', sans-serif;
+	border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: #eee;
+  opacity: .4;
+
+}
+
+textarea:focus {
+	outline: none;
+}
+
+
+.choice {
+	height: 400px;
+
+}
+
+button {
+	font-family: 'Ramabhadra', sans-serif;
+	border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: #eee;
+  animation: fadeIn 5s;
+
+}
+
+
